@@ -6,14 +6,14 @@ const HeroSection = () => (
     <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-16">
       <div className="space-y-6 animate-fade-in">
         <div className="inline-block bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-medium">
-          🍼 AI-Powered Baby Care
+          AI Powered Baby Care
         </div>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-          We Decode Baby Cries —{" "}
+          We Decode Baby Cries{" "}
           <span className="text-gradient">Not Just Detect Them</span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-lg">
-          CryNova listens, understands, and tells you exactly <strong>why</strong> your baby is crying — hunger, pain, sleep, or discomfort. Reduce stress, respond faster, and bond better.
+          CryNova listens, understands, and tells you exactly <strong>why</strong> your baby is crying. Hunger, pain, sleep, or discomfort. Reduce stress, respond faster, and bond better.
         </p>
         <div className="flex flex-wrap gap-4">
           <Button variant="hero" size="xl" asChild>

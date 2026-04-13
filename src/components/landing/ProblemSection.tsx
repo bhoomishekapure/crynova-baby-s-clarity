@@ -15,7 +15,7 @@ const ProblemSection = () => (
           Every cry is a message. But most parents are left guessing.
         </h2>
         <p className="text-muted-foreground text-lg">
-          Imagine your baby crying at 3 AM. You've tried feeding, changing, rocking — nothing works. 
+          Imagine your baby crying at 3 AM. You've tried feeding, changing, rocking and nothing works. 
           The helplessness is overwhelming. <strong className="text-foreground">No tool today tells parents WHY their baby cries.</strong>
         </p>
       </div>

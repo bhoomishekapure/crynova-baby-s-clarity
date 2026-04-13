@@ -1,7 +1,7 @@
 import { Brain, DollarSign, Shield, Wifi, WifiOff, Zap } from "lucide-react";
 
 const features = [
-  { icon: Brain, title: "Explains WHY", description: "Not just detection — CryNova tells you the specific reason behind each cry.", color: "bg-lavender" },
+  { icon: Brain, title: "Explains WHY", description: "Not just detection. CryNova tells you the specific reason behind each cry.", color: "bg-lavender" },
   { icon: WifiOff, title: "Works Offline", description: "AI runs entirely on-device. No internet, no cloud, no delays.", color: "bg-mint" },
   { icon: Shield, title: "Zero Radiation", description: "No RF signals near your baby. The dock handles all wireless communication.", color: "bg-baby-blue" },
   { icon: Zap, title: "Real-Time AI", description: "Instant classification the moment your baby starts crying.", color: "bg-peach" },

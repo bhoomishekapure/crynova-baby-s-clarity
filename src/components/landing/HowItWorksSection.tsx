@@ -18,7 +18,7 @@ const HowItWorksSection = () => (
           From cry to clarity in seconds
         </h2>
         <p className="text-muted-foreground text-lg">
-          A seamless flow that gives you answers — instantly and offline.
+          A seamless flow that gives you answers instantly and offline.
         </p>
       </div>
 
