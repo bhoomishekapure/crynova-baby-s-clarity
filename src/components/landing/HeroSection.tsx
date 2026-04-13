@@ -31,7 +31,7 @@ const HeroSection = () => (
             <span className="w-2 h-2 rounded-full bg-baby-blue" /> Zero Radiation
           </span>
           <span className="flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full bg-primary" /> Real-time AI
+            <span className="w-2 h-2 rounded-full bg-primary" /> Real time AI
           </span>
         </div>
       </div>

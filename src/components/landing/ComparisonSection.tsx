@@ -5,7 +5,7 @@ const rows = [
   { feature: "Explains WHY baby cries", crynova: true, others: false },
   { feature: "Works offline", crynova: true, others: false },
   { feature: "Zero radiation near baby", crynova: true, others: false },
-  { feature: "On-device AI", crynova: true, others: false },
+  { feature: "On device AI", crynova: true, others: false },
   { feature: "LED instant feedback", crynova: true, others: false },
   { feature: "Affordable (under ₹1500)", crynova: true, others: false },
   { feature: "Mobile app insights", crynova: true, others: true },

@@ -23,7 +23,7 @@ const DemoSection = () => (
           </div>
         </div>
         <p className="text-center text-sm text-muted-foreground mt-4">
-          Full product demo showcasing real-time cry classification, LED feedback, and app insights.
+          Full product demo showcasing real time cry classification, LED feedback, and app insights.
         </p>
       </div>
     </div>
