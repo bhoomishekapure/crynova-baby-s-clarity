@@ -1,4 +1,4 @@
-import { AlertTriangle, Baby, Brain, HeartCrack } from "lucide-react";
+import { AlertTriangle, Baby, HeartCrack } from "lucide-react";
 
 const stats = [
   { value: "80%", label: "of parents struggle to understand why their baby cries", icon: HeartCrack, color: "bg-peach" },
