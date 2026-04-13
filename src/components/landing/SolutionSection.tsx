@@ -42,7 +42,7 @@ const SolutionSection = () => {
             A complete system designed around your baby's safety
           </h2>
           <p className="text-muted-foreground text-lg">
-            Three components working together: smart tag, charging dock, and mobile app to decode every cry.
+            Three components working together. Smart tag, charging dock, and mobile app to decode every cry.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ const SolutionSection = () => {
           {solutions.map((item, i) => (
             <div key={i} className="bg-card rounded-2xl overflow-hidden shadow-card hover-lift group">
               <div
-                className={`aspect-square overflow-hidden ${item.labeledImage ? "cursor-pointer" : ""}`}
+                className={`aspect-square overflow-hidden relative ${item.labeledImage ? "cursor-pointer" : ""}`}
                 onClick={() => item.labeledImage && setShowLabeled(true)}
               >
                 <img

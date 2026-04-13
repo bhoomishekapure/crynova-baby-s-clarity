@@ -16,7 +16,7 @@ const plans = [
   {
     name: "App Subscription",
     price: "₹199",
-    period: "/month",
+    period: "per month",
     description: "Unlock detailed insights & trends",
     features: ["Cry Pattern Analytics", "Weekly Reports", "Growth Tracking", "Personalized Tips", "Priority Support"],
     cta: "Subscribe",
