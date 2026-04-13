@@ -4,6 +4,9 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
+import Demo from "./pages/Demo.tsx";
+import Contact from "./pages/Contact.tsx";
+import Buy from "./pages/Buy.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -16,7 +19,9 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/demo" element={<Demo />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/buy" element={<Buy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
