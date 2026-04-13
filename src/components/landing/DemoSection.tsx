@@ -7,7 +7,7 @@ const DemoSection = () => (
           Watch CryNova decode a baby's cry
         </h2>
         <p className="text-muted-foreground text-lg">
-          See how our AI identifies the reason behind each cry in real-time.
+          See how our AI identifies the reason behind each cry in real time.
         </p>
       </div>
 
@@ -19,11 +19,11 @@ const DemoSection = () => (
                 <polygon points="5 3 19 12 5 21 5 3" />
               </svg>
             </div>
-            <p className="text-muted-foreground text-sm">Demo video coming soon — click to play</p>
+            <p className="text-muted-foreground text-sm">Demo video coming soon. Click to play</p>
           </div>
         </div>
         <p className="text-center text-sm text-muted-foreground mt-4">
-          Full product demo showcasing real-time cry classification, LED feedback, and app insights.
+          Full product demo showcasing real time cry classification, LED feedback, and app insights.
         </p>
       </div>
     </div>

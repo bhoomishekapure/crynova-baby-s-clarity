@@ -5,9 +5,9 @@ const rows = [
   { feature: "Explains WHY baby cries", crynova: true, others: false },
   { feature: "Works offline", crynova: true, others: false },
   { feature: "Zero radiation near baby", crynova: true, others: false },
-  { feature: "On-device AI", crynova: true, others: false },
+  { feature: "On device AI", crynova: true, others: false },
   { feature: "LED instant feedback", crynova: true, others: false },
-  { feature: "Affordable (<₹1500)", crynova: true, others: false },
+  { feature: "Affordable (under ₹1500)", crynova: true, others: false },
   { feature: "Mobile app insights", crynova: true, others: true },
 ];
 
@@ -17,7 +17,7 @@ const ComparisonSection = () => (
       <div className="text-center max-w-3xl mx-auto mb-12">
         <span className="text-sm font-medium text-primary bg-primary/10 px-4 py-1.5 rounded-full">Comparison</span>
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-6 mb-4">
-          CryNova vs. Other Solutions
+          CryNova vs Other Solutions
         </h2>
         <p className="text-muted-foreground text-lg">
           Others detect crying. CryNova explains the reason.
