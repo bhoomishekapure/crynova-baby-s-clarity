@@ -16,43 +16,40 @@ const DemoSection = () => {
           </p>
         </div>
 
-        <div className="flex justify-center items-center min-h-[600px]">
-          <div className="relative max-w-md w-full">
-            {/* Decorative background elements */}
-            <div className="absolute -inset-8 bg-gradient-to-br from-primary/10 via-accent/10 to-secondary/10 rounded-3xl blur-2xl"></div>
-            <div className="absolute -inset-4 bg-gradient-to-tr from-primary/5 via-transparent to-accent/5 rounded-3xl"></div>
-            
-            {/* Video container */}
-            <div className="relative bg-background/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-primary/10">
-              <div className="relative rounded-xl overflow-hidden shadow-card bg-foreground/5 aspect-[9/16] max-h-[65vh]">
-                <video 
-                  className="w-full h-full object-contain"
-                  controls
-                  controlsList="nodownload"
-                  playsInline
-                  poster="/placeholder.svg"
-                  onPlay={() => setIsPlaying(true)}
-                  onPause={() => setIsPlaying(false)}
-                >
-                  <source src="/demo-video.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-                {!isPlaying && (
-                  <div className="absolute inset-0 flex items-center justify-center bg-foreground/5 pointer-events-none">
-                    <div className="w-20 h-20 gradient-primary rounded-full flex items-center justify-center animate-pulse_glow">
-                      <svg className="ml-1" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" style={{ color: "hsl(0 0% 100%)" }}>
-                        <polygon points="5 3 19 12 5 21 5 3" />
-                      </svg>
-                    </div>
+        <div className="flex justify-center">
+          <div className="relative w-full max-w-sm mx-auto flex justify-center">
+            <div className="absolute left-1/2 top-10 h-64 w-64 -translate-x-[85%] rounded-full bg-primary/18 blur-3xl"></div>
+            <div className="absolute right-1/2 bottom-12 h-56 w-56 translate-x-[90%] rounded-full bg-accent/18 blur-3xl"></div>
+            <div className="absolute left-1/2 top-1/2 h-40 w-40 -translate-x-1/2 -translate-y-1/2 rounded-full bg-secondary/12 blur-3xl"></div>
+
+            <div className="relative w-full rounded-[2rem] overflow-hidden shadow-card bg-foreground/5 aspect-[9/16] max-h-[65vh] mx-auto">
+              <video 
+                className="w-full h-full object-contain"
+                controls
+                controlsList="nodownload"
+                playsInline
+                poster="/placeholder.svg"
+                onPlay={() => setIsPlaying(true)}
+                onPause={() => setIsPlaying(false)}
+              >
+                <source src="/demo-video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              {!isPlaying && (
+                <div className="absolute inset-0 flex items-center justify-center bg-foreground/5 pointer-events-none">
+                  <div className="w-20 h-20 gradient-primary rounded-full flex items-center justify-center animate-pulse_glow">
+                    <svg className="ml-1" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" style={{ color: "hsl(0 0% 100%)" }}>
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
                   </div>
-                )}
-              </div>
-              <p className="text-center text-sm text-muted-foreground mt-4">
-                Full product demo showcasing real time cry classification, LED feedback, and app insights.
-              </p>
+                </div>
+              )}
             </div>
           </div>
         </div>
+        <p className="text-center text-sm text-muted-foreground mt-4">
+          Full product demo showcasing real time cry classification, LED feedback, and app insights.
+        </p>
       </div>
     </section>
   );
