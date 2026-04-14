@@ -16,10 +16,10 @@ const DemoSection = () => {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <div className="relative rounded-2xl overflow-hidden shadow-card bg-foreground/5 aspect-video">
+        <div className="max-w-2xl mx-auto">
+          <div className="relative rounded-2xl overflow-hidden shadow-card bg-foreground/5 aspect-[9/16]">
             <video 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
               controls
               controlsList="nodownload"
               playsInline
